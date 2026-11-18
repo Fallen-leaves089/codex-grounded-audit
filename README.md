@@ -15,6 +15,7 @@ GPT + Codex 的证据优先项目健康审计技能。此项目是 `grounded-aud
 | 分发仓库 | `codex-grounded-audit` |
 | 宿主 | Codex |
 | 模型 | GPT |
+| 适配范围 | 宿主 + 模型专项 |
 | 技能名 | `evidence-first-audit` |
 | 调用入口 | `$evidence-first-audit` |
 | 适配证据 | `partial`（宿主有限只读观察） |
