@@ -1,0 +1,7 @@
+interface:
+  display_name: "Evidence First Audit"
+  short_description: "证据优先的项目健康审计，输出可复核的 P0-P3 问题清单"
+  default_prompt: "Use $evidence-first-audit to audit this project read-only and report evidence-backed P0-P3 findings."
+
+policy:
+  allow_implicit_invocation: true
