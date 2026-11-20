@@ -30,7 +30,7 @@ class ContractTests(unittest.TestCase):
         self.assertEqual(lines[0].strip(), "---")
         self.assertIn("name: evidence-first-audit", lines)
         self.assertIn("license: Apache-2.0", lines)
-        self.assertIn("  version: 0.1.1", lines)
+        self.assertIn("  version: 0.1.2", lines)
         self.assertIn("allowed-tools: Read Grep Glob", text)
         allowed = str(MANIFEST.get("allowed_tools_marker", ""))
         for forbidden in ("Write", "NotebookEdit", "write_file", "edit", "run_shell_command", "web_fetch", "web_search"):
